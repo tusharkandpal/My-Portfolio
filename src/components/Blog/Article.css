@@ -1,0 +1,51 @@
+#article {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+}
+#article .article-header {
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1vmin;
+}
+#article .article-body {
+  padding: 2vmin;
+}
+#article a {
+  color: var(--font-color);
+  border-bottom: 2px dashed var(--font-color);
+}
+#article hr {
+  margin: 0.5rem;
+}
+#article h1 {
+  font-size: 1.2rem;
+}
+#article h2 {
+  padding: 1vmin 0;
+  font-size: 1.1rem;
+}
+#article h3 {
+  font-size: 1rem;
+}
+#article p {
+  padding: 1vmin;
+}
+#article ul {
+  padding: 0 2vmin;
+}
+#article li {
+  margin-inline-start: 0;
+  margin: 0.8rem 0 0.8rem 4vmin;
+}
+#article code {
+  background-color: var(--font-color);
+  color: var(--secondary-color);
+  font-size: 0.7rem;
+  padding: 1vmin;
+}
+#article blockquote {
+  border-left: 4px solid var(--secondary-color);
+  padding: 1vmin;
+}

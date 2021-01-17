@@ -1,0 +1,22 @@
+footer {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5vmin;
+}
+.footer-info {
+  padding: 0.5vmin 1.5vmin;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+}
+.footer-social {
+  margin: 1.5vmin;
+}
+.social-link {
+  margin: 0.5vmin 2vmin 0 2vmin;
+}
+.footer-copyright {
+  color: var(--bg-color);
+}
