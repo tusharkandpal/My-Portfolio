@@ -14,7 +14,7 @@ function Home() {
       <div className="home-intro">
         <h1 className="home-intro-header">Hi<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px" alt='waving-hand' /> I'm Tushar</h1>
         <p className="home-intro-info">
-          - a passionate <span style={{ fontWeight: "800" }}>Front-end</span>{" "}
+          - a passionate <span style={{ fontWeight: "800" }}>Front-end </span>
           developer
         </p>
       </div>
@@ -47,9 +47,9 @@ function Home() {
         <img src={logo} alt='profile' id='profile-pic'/>
           <div className='home-section-sub'>
               <h1 className='home-section-header'>Few things about me..</h1>
-              <p className='home-section-info'>- B.Tech graduate (2020) with 77.28% .</p>
-              <p className='home-section-info'>- My hobbies include writing articles, singing & sometimes cooking.</p>
-              <p className='home-section-info'>- Being more passionate & kind to others.</p>
+              <p className='home-section-info'>- B.Tech in Electrical Engineering (2020).</p>
+              <p className='home-section-info'>- Leisure interests include writing articles, singing & sometimes cooking.</p>
+              <p className='home-section-info'>- A kind human being & good listener.</p>
               <p className='home-section-info'>- Always a learner.</p>
               <a href='https://drive.google.com/file/d/1vu4JY-klUWc1ATkYrrT-PBC4yRUh9a69/view?usp=sharing' target='_blank' rel="noreferrer"><BiDownload/> Resume</a>
           </div>
