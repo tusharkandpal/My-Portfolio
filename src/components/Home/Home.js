@@ -51,7 +51,7 @@ function Home() {
               <p className='home-section-info'>- Leisure interests include writing articles, singing & sometimes cooking.</p>
               <p className='home-section-info'>- A kind human being & good listener.</p>
               <p className='home-section-info'>- Always a learner.</p>
-              <a href='https://drive.google.com/file/d/1vu4JY-klUWc1ATkYrrT-PBC4yRUh9a69/view?usp=sharing' target='_blank' rel="noreferrer"><BiDownload/> Resume</a>
+              <a href='https://drive.google.com/file/d/1Qm4bZvCRqK5AXrobtZLowsrUjazc9k_F/view?usp=sharing' target='_blank' rel="noreferrer"><BiDownload/> Resume</a>
           </div>
       </div>
     </div>
