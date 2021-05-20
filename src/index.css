@@ -7,13 +7,37 @@
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  color: var(--font-color);
 }
-
 :root {
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Alegreya", serif;
-  --font-color: #00adb5;
-  --primary-color: #393e46;
-  --secondary-color: #222831;
-  --bg-color: #fafafa;
+  --font-color: #222831;
+  --primary-color: #00adb5;
+  --secondary-color: #22283140;
+  --bg-color: #f7f7f7;
+}
+.dark {
+  --font-color: #f7f7f7;
+  --secondary-color: #f7f7f740;
+  --bg-color: #1e1f20;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+g > rect {
+  transition: fill 200ms linear;
+  fill: var(--bg-color);
+}
+g > path {
+  fill: var(--primary-color);
+}
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 16px;
+  }
 }

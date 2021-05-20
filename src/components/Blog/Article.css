@@ -13,8 +13,8 @@
   padding: 2vmin;
 }
 #article a {
-  color: var(--font-color);
-  border-bottom: 2px dashed var(--font-color);
+  color: var(--primary-color);
+  border-bottom: 2px dashed var(--primary-color);
 }
 #article hr {
   margin: 0.5rem;
@@ -40,8 +40,8 @@
   margin: 0.8rem 0 0.8rem 4vmin;
 }
 #article code {
-  background-color: var(--font-color);
-  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--font-color);
   font-size: 0.7rem;
   padding: 1vmin;
 }

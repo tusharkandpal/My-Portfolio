@@ -17,6 +17,7 @@ function Work() {
     {
       document.querySelector('#left-btn').disabled = true;
       document.querySelector('#left-btn').style.pointerEvents = "none";
+      document.querySelector('#left-btn').style.color = "white";
     }
     else 
     {

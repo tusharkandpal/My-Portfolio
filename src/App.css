@@ -1,15 +1,16 @@
-/* .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-a {
-  display: inline-block;
-  color: var(--font-color);
-  text-decoration: none;
+#theme-btn {
+  outline: none;
+  border: 0;
+  background-color: var(--font-color);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
 }
-img {
-  vertical-align: middle;
+#theme-btn::before {
+  content: "🌙";
+}
+.dark #theme-btn::before {
+  content: "☀️";
 }
 .section-title {
   background-color: var(--font-color);
