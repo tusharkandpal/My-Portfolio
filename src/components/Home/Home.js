@@ -59,7 +59,7 @@ function Home() {
             <p className="home-section-info">
               List of main projects I've shared online.
             </p>
-            <Link to="/work">Browse Projects</Link>
+            <Link to="/work" className='home-link'>Browse Projects</Link>
           </div>
         </div>
         <div className="home-section">
@@ -68,7 +68,7 @@ function Home() {
             <p className="home-section-info">
               Read & gain knowledge through various articles.
             </p>
-            <Link to="/blog">Read here!</Link>
+            <Link to="/blog" className='home-link'>Read here!</Link>
           </div>
           <img className="home-section-img" src={blog} alt="blog" />
         </div>
@@ -92,6 +92,7 @@ function Home() {
               href="https://drive.google.com/file/d/1Qm4bZvCRqK5AXrobtZLowsrUjazc9k_F/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
+              className='home-link'
             >
               <BiDownload /> Resume
             </a>

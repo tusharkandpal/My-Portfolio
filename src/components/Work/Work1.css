@@ -1,25 +1,45 @@
-#work {
+#work1 {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  padding-bottom: 1vmin;
+  align-items: center;
+  min-height: 95vh;
   background-color: var(--bg-color);
   transition: background-color 0.5s;
 }
-#project-container {
+.work-main {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3vmin 0;
+}
+.project-item {
+  padding: 5px 10px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+.project-item:hover {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  transition: background-color 0.5s;
+}
+.project-dropdown {
+  display: none;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  margin: 5vmin 0;
+  outline: none;
+  border: none;
 }
 .project {
   display: flex;
-  justify-content: space-around;
-  margin: 3vmin;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 .img-box {
-  max-width: 600px;
+  max-width: 500px;
 }
-#project-container .project-img {
+.project-img {
   width: 100%;
   object-fit: contain;
   border-radius: 8px;
@@ -60,10 +80,10 @@
   display: inline;
   text-decoration: none;
   font-size: 0.8rem;
-  margin-top: 2vmin;
+  margin-top: 3vmin;
   background-color: var(--font-color);
   color: var(--bg-color);
-  padding: 0.2rem 2vmin;
+  padding: 0.5vmin 3vmin;
   border-radius: 8px;
   border: 2px solid;
 }
@@ -72,21 +92,23 @@
   color: var(--font-color);
   transition: background-color 0.3s;
 }
-.work-btns {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .other-link {
-  display: inline;
-  margin-bottom: 4vmin;
+  padding-bottom: 2vmin;
 }
-.preview-btn {
-  outline: 0;
-  border: none;
-  border-radius: 10px;
-  padding: 0.5vmin;
-  margin: 1vmin;
-  background-color: var(--bg-color);
-  cursor: pointer;
+.other-link:hover {
+  color: var(--primary-color);
+}
+@media screen and (max-width: 780px) {
+  .work-main {
+    flex-direction: column;
+  }
+  .work-list {
+    display: none;
+  }
+  .project-dropdown {
+    display: block;
+  }
+  .project-title {
+    display: none;
+  }
 }

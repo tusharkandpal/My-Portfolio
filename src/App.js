@@ -1,6 +1,7 @@
 import "./App.css";
 import Home from "./components/Home/Home";
-import Work from "./components/Work/Work";
+// import Work from "./components/Work/Work";
+import Work1 from "./components/Work/Work1";
 import Blog from "./components/Blog/Blog";
 import Article from "./components/Blog/Article";
 import Footer from "./components/Footer/Footer";
@@ -46,7 +47,7 @@ function App() {
           </ul>
           {/* Components */}
           <Route path="/" exact component={Home} />
-          <Route path="/work" component={Work} />
+          <Route path="/work" component={Work1} />
           <Route path="/blog" component={Blog} />
           <Route path="/article/:id" component={Article} />
           <Footer />

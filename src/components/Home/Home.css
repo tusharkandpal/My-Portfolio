@@ -4,7 +4,7 @@
   justify-content: space-around;
   list-style: none;
   padding: 0.3rem 0;
-  height: 7vh;
+  height: 8vh;
   background-color: var(--primary-color);
 }
 #home-nav li {
@@ -31,6 +31,7 @@
   color: var(--font-color);
 }
 #home-sub {
+  margin-top: -8px;
   padding: 3vmin;
   background-color: var(--bg-color);
 }
@@ -51,15 +52,20 @@
 }
 .home-section-info {
   color: var(--primary-color);
-  padding: 0.3vmin 0;
-}
-.home-section-img:hover {
-  transform: translateY(-5%);
-  transition: transform 0.3s;
+  padding: 0.1vmin 0;
 }
 .home-section-sub {
   padding: 1vmin;
   max-width: 500px;
+}
+.home-link {
+  font-size: 0.8rem;
+  background-color: var(--primary-color);
+  padding: 0.5vmin 2vmin;
+  margin-top: 2vmin;
+}
+.home-link:hover {
+  background-color: rgb(39, 202, 202);
 }
 #profile-pic {
   width: 200px;
@@ -67,7 +73,7 @@
   transition: transform 0.5s;
 }
 #profile-pic:hover {
-  transform: rotate(30deg);
+  transform: rotate(28deg);
   transition: transform 0.5s;
 }
 @media screen and (max-width: 500px) {
