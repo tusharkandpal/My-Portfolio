@@ -4,7 +4,7 @@
   justify-content: space-around;
   list-style: none;
   padding: 0.3rem 0;
-  height: 8vh;
+  height: 7vh;
   background-color: var(--primary-color);
 }
 #home-nav li {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Work1.css";
 import Project1 from "./Project1.js";
 import { github } from "../../projectData.js";
@@ -7,6 +7,9 @@ import { HiExternalLink } from "react-icons/hi";
 function Work1() {
   const project = [...github];
   const [project_id, setProject_id] = useState(0);
+
+  useEffect(() => {
+  }, [project_id]);
 
   return (
     <div id="work1">
@@ -39,7 +42,7 @@ function Work1() {
             Portfolio
           </li>
         </ol>
-        <select  onClick={(e) => {
+        <select onClick={(e) => {
           if (e.target.value === undefined)
           return;
           setProject_id(e.target.value)}} className='project-dropdown'>
